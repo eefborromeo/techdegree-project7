@@ -1,0 +1,40 @@
+p {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+}
+
+.videoWrapper {
+  height: 100%;
+}
+
+.mejs__inner .mejs__controls {
+  background: #525252;
+}
+
+.mejs__inner .mejs__controls .mejs__time-rail .mejs__time-current {
+  background-color: #ffad33;
+}
+
+.captionWrapper {
+  width: 90%;
+  margin: 30px auto;
+}
+
+/**************************
+  MEDIA QUERIES
+**************************/
+
+@media screen and (min-width: 768px) {
+  p {
+    line-height: 2;
+  }
+
+  .videoWrapper {
+    width: 70%;
+    margin: 25px auto 0;
+  }
+
+  .captionWrapper {
+    width: 70%;
+  }
+}
