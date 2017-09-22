@@ -1,19 +1,31 @@
+/**************************
+  GENERAL
+**************************/
+
 p {
   font-family: 'Roboto', sans-serif;
   line-height: 1.8;
 }
 
+/**************************
+  VIDEO STYLES
+**************************/
+
 .videoWrapper {
   height: 100%;
 }
 
-.mejs__inner .mejs__controls {
-  background: #525252;
-}
+  .mejs__inner .mejs__controls {
+    background: #525252;
+  }
 
-.mejs__inner .mejs__controls .mejs__time-rail .mejs__time-current {
-  background-color: #ffad33;
-}
+  .mejs__inner .mejs__controls .mejs__time-rail .mejs__time-current {
+    background-color: #ffad33;
+  }
+
+/**************************
+  CAPTION
+**************************/
 
 .captionWrapper {
   width: 90%;
