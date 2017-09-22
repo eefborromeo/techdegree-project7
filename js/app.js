@@ -20,6 +20,6 @@ vid.addEventListener('playing', () => {
 
 for (let i = 0; i < transcriptLine.length; i += 1) {
   transcriptLine[i].addEventListener('click', () => {
-   vid.currentTime = transcriptLine[i].getAttribute('data-start');
+   vid.play(vid.currentTime = transcriptLine[i].getAttribute('data-start'));
   });
 }
