@@ -1,6 +1,9 @@
 let transcriptLine = document.querySelector('.captionWrapper').querySelectorAll('span');
 const vid = document.querySelector('video');
 
+
+// Highlights sentences as playback time changes
+
 vid.addEventListener('playing', () => {
   vid.ontimeupdate = () => {
     let timeCurrent = vid.currentTime;
@@ -13,6 +16,8 @@ vid.addEventListener('playing', () => {
     }
   }
 });
+
+// Jumps to video time when sentence is clicked
 
 for (let i = 0; i < transcriptLine.length; i += 1) {
   transcriptLine[i].addEventListener('click', () => {
